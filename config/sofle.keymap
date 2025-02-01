@@ -16,7 +16,7 @@
 #define ADJUST 3
 
 &led_strip {
-    chain-length = <9>;
+    chain-length = <29>;
 };
 
 / {
