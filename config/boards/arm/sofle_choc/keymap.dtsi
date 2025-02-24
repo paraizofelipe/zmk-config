@@ -1,0 +1,9 @@
+&rgb_matrix {
+    compatible = "zmk,rgb-matrix";
+    zmk,rgb-matrix-color-mapping = <
+        // Defina as cores de cada tecla pelo índice
+        WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE
+        PURPLE, PURPLE, PURPLE, PURPLE, PURPLE, PURPLE, PURPLE, PURPLE, PURPLE, PURPLE
+        BLUE  // ESC em azul
+    >;
+};
